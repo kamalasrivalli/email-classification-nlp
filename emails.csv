@@ -1,0 +1,131 @@
+text,label
+"Let's schedule a meeting for tomorrow at 10am",work
+"Please find the attached report for your review",work
+"Can you update me on the project status?",work
+"We need to finalize the budget by Friday",work
+"Reminder: team standup at 9am",work
+"Let's connect with the client next week",work
+"Kindly review the document and share feedback",work
+"Project deadline has been extended",work
+"Please prepare slides for the presentation",work
+"Meeting rescheduled to 3pm",work
+"Team meet up at 5pm" ,work
+"Can we schedule a meeting for tomorrow morning?" ,work
+"Please review the attached document and share your feedback." ,work
+"Let’s finalize the presentation before Friday." ,work
+"Could you update me on the project status?" ,work
+"We need to discuss the budget changes this week." ,work
+"I’ve shared the report, please take a look." ,work
+"Let’s connect with the client next week." ,work
+"Reminder: team meeting at 10 AM." ,work
+"Please prepare the slides for the meeting." ,work
+"Let me know your availability for a call." ,work
+"We should plan the next steps for this project." ,work
+"Kindly review the changes and confirm." ,work
+"The deadline has been moved to next Monday." ,work
+"Can you send me the updated file?" ,work
+"Let’s have a quick sync today." ,work
+
+"How are you doing these days?",personal
+"Let's catch up over coffee this weekend",personal
+"Happy birthday! Have a great year ahead",personal
+"Call me when you're free",personal
+"Miss you, it's been a while!",personal
+"Are you coming home for the holidays?",personal
+"Just checking in on you",personal
+"Dinner tonight?",personal
+"Hope you're doing well",personal
+"Let's plan a trip soon",personal
+"How have you been lately?" ,personal
+"Let’s catch up sometime this week." ,personal
+"Hope you’re doing well." ,personal
+"Are you free this evening?" ,personal
+"I miss talking to you." ,personal
+"Let’s go out for dinner tonight." ,personal
+"Just checking in on you." ,personal
+"Did you reach home safely?" ,personal
+"Call me when you’re free." ,personal
+"Let’s plan a trip soon." ,personal
+"How was your day?" ,personal
+"I was thinking about you today." ,personal
+"Can we talk later?" ,personal
+"It’s been a while since we met." ,personal
+"Hope everything is going well." ,personal
+
+"Congratulations! You won a free iPhone",spam
+"Claim your reward now!!!",spam
+"You have been selected for a prize",spam
+"Click here to win cash",spam
+"Limited offer!!! Act now!!!",spam
+"Get rich quick with this trick",spam
+"You are a lucky winner!",spam
+"Earn money from home easily",spam
+"Urgent!!! Your account is compromised",spam
+"Free vacation awaits you",spam
+"Congratulations! You have won a free iPhone." ,spam
+"Claim your reward before it expires." ,spam
+"You have been selected as a lucky winner." ,spam
+"Click here to receive your cash prize." ,spam
+"Earn money quickly from home." ,spam
+"Limited time offer, act now!" ,spam
+"Your account has been compromised, click here immediately." ,spam
+"Get rich with this simple trick." ,spam
+"You are eligible for a huge reward." ,spam
+"Don’t miss this exclusive opportunity." ,spam
+"Win big prizes instantly." ,spam
+"Urgent: verify your account now." ,spam
+"You have won a lottery." ,spam
+"Claim your free vacation today." ,spam
+"Act fast to secure your reward." ,spam
+
+"50% off on all items today",promotion
+"Special discount just for you",promotion
+"Buy one get one free",promotion
+"Flash sale starts now",promotion
+"Exclusive deals inside",promotion
+"Limited time offer on electronics",promotion
+"Save big on your next purchase",promotion
+"Weekend sale is live",promotion
+"Grab your discount coupon",promotion
+"Shop now and save more",promotion
+"Enjoy 50% off on your next purchase." ,promotion
+"Special discount available this weekend.",promotion
+"Buy one get one free on selected items.",promotion
+"Check out our latest offers.",promotion
+"Exclusive deals just for you.",promotion
+"Limited time sale on electronics.",promotion
+"Save big on your favorite products.",promotion
+"Use this coupon for extra savings.",promotion
+"Weekend sale is now live.",promotion
+"Shop now and get free delivery.",promotion
+"New arrivals are now available.",promotion
+"Grab the best deals before they’re gone.",promotion
+"Upgrade your wardrobe with our new collection.",promotion
+"Don’t miss out on these discounts.",promotion
+"Discover exciting offers today.",promotion
+
+"Your order has been shipped",updates
+"Your package is out for delivery",updates
+"Password changed successfully",updates
+"Your account has been updated",updates
+"Subscription renewed successfully",updates
+"Payment received successfully",updates
+"New login detected",updates
+"Invoice for your purchase",updates
+"Delivery scheduled for tomorrow",updates
+"Your profile has been updated",updates
+"Your order has been shipped successfully.",updates
+"Your package will be delivered tomorrow.",updates
+"Your payment has been received.",updates
+"Password changed successfully.",updates
+"Your account has been updated.",updates
+"Your subscription has been renewed.",updates
+"Invoice for your recent purchase.",updates
+"New login detected on your account.",updates
+"Delivery has been scheduled.",updates
+"Your profile information has been updated.",updates
+"Your request has been processed.",updates
+"Payment confirmation received.",updates
+"Your order is out for delivery.",updates
+"We have updated your account details.",updates
+"Your booking has been confirmed.",updates
