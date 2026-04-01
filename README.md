@@ -1,44 +1,145 @@
-# email-classification-nlp
-This project focuses on building a multi-class text classification system to categorize emails into different categories such as work, personal, spam, promotion and updates.
-## Objective
-To explore how machine learning models handle natural language data and to analyze their limitations in capturing semantic meaning.
+Text Classification using Machine Learning
 
-## Approach
+🧠 Overview
 
-- Text preprocessing (lowercasing, cleaning)
-- Feature extraction using TF-IDF
-- Model training using Logistic Regression
-- Evaluation using accuracy and confusion matrix
+This project builds a multi-class text classification system to categorize messages into:
 
-## Results
+- Work
+- Personal
+- Spam
+- Promotion
+- Updates
 
-The model achieved an accuracy of approximately 73% on the test dataset.
+The goal is not only to achieve high accuracy but also to understand model behavior, limitations, and generalization across different evaluation settings.
 
-## Analysis
+---
 
-The model performs well on clearly distinguishable categories such as work and updates, where specific keywords provide strong signals.
+📂 Dataset
 
-However, it struggles with semantically overlapping categories such as spam and promotion due to similar persuasive language patterns.
+The dataset consists of manually curated text messages across five categories.
 
-Additionally, some personal and update messages are misclassified as spam, highlighting the limitation of TF-IDF in capturing contextual meaning.
+To evaluate model robustness, three datasets were used:
 
-The model also shows a tendency to predict the "spam" class when uncertain, indicating reliance on keyword-based features rather than deeper semantic understanding.
+- Standard/Test Dataset → Regular evaluation
+- Balanced Dataset → Equal representation of all classes
+- Hard Dataset → Ambiguous and tricky messages
 
-## Limitations
+---
 
-- TF-IDF does not capture context or word order
-- Small dataset size
-- Difficulty in handling semantic ambiguity
+🧹 Preprocessing
 
-## Future Improvements
+- Text cleaning (lowercasing, normalization)
+- TF-IDF vectorization
+- Conversion of text into numerical features
 
-- Use word embeddings (Word2Vec / GloVe)
-- Experiment with transformer-based models like BERT
-- Expand dataset with more diverse samples
+---
 
-## Technologies Used
+🔀 Train-Test Split
 
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib / Seaborn
+The dataset was split into:
+
+- Training set → used for model training and analysis
+- Test set → used for final evaluation
+
+---
+
+🤖 Models Used
+
+- Logistic Regression
+- Multinomial Naive Bayes
+- Linear Support Vector Classifier (Linear SVC)
+
+---
+
+🔤 Feature Engineering (Bigrams)
+
+In addition to unigram features, bigram features were introduced:
+
+TfidfVectorizer(ngram_range=(1,2))
+
+💡 Insight
+
+- Bigrams capture short context (e.g., “call now” vs “call me”)
+- Improved performance on structured data
+- Mixed results on harder datasets due to increased feature complexity
+
+---
+
+📊 Evaluation
+
+🟢 Test Dataset
+
+- High accuracy (~90%+) across models
+- Linear SVC performs best
+
+---
+
+⚖️ Balanced Dataset
+
+- Consistent performance across classes
+- Provides fair evaluation without class bias
+
+👉 Models perform well when class distribution is uniform
+
+---
+
+⚠️ Hard Dataset
+
+- Accuracy drops significantly (~60–70%)
+
+👉 Indicates:
+
+- difficulty handling ambiguous inputs
+- reliance on surface-level patterns
+
+---
+
+📈 Learning Curve Analysis
+
+Learning curves were generated using 5-fold cross-validation to study model behavior with increasing data.
+
+🔍 Observations
+
+- All models improve with more data
+- Linear SVC achieves the best performance
+- Logistic Regression shows stable improvement
+- Naive Bayes performs well with small data but plateaus early
+
+---
+
+🔍 Training vs Validation
+
+- Training accuracy is higher than validation accuracy
+- Small gap → good generalization
+- Linear SVC shows slight overfitting but still performs best
+
+---
+
+💥 Key Insights
+
+- High accuracy on test data does not guarantee real-world performance
+- Models struggle with ambiguous and mixed-intent messages
+- Feature engineering (bigrams) improves context but may reduce generalization
+- Data quality and diversity are as important as model choice
+
+---
+
+✅ Conclusion
+
+- Traditional ML models perform well on structured text data
+- Linear SVC is the best-performing model overall
+- Naive Bayes is efficient for smaller datasets
+- Performance drops on complex inputs highlight limitations of TF-IDF approaches
+
+---
+
+🚀 Future Work
+
+- Use transformer-based models (e.g., BERT)
+- Expand dataset with more diverse and realistic samples
+- Improve handling of ambiguous and overlapping categories
+
+
+- Model comparison
+- Learning behavior
+- Generali
