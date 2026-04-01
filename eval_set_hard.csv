@@ -1,0 +1,51 @@
+text,label
+"Let’s catch up tomorrow and go over things",work
+"Let’s catch up tomorrow",personal
+"Can you look into this when you get a moment?",work
+"Can you look into this?",personal
+"Your account needs attention soon",updates
+"Your account needs attention now to avoid issues",spam
+"I’ll call you later about it",work
+"I’ll call you later",personal
+"Something needs to be checked before we proceed",work
+"Something needs to be checked now",updates
+"Let’s finalize this when you’re free",work
+"Let’s finalize this later",personal
+"This might require an update",work
+"This requires an update now",updates
+"There seems to be an issue with the account",updates
+"There seems to be an issue, act immediately",spam
+"Let’s go through this step by step",work
+"Let’s go through this later",personal
+"Please take a look when possible",work
+"Please take a look now",updates
+"We should talk about this soon",work
+"We should talk soon",personal
+"This needs confirmation before moving ahead",work
+"This needs confirmation now",updates
+"I’ll check this and get back",work
+"I’ll check this later",personal
+"Something has changed in your account",updates
+"Something has changed, verify immediately",spam
+"Let’s go ahead with this plan",work
+"Let’s go ahead tomorrow",personal
+"This might need your attention",work
+"This needs your attention now",updates
+"There’s an update available",updates
+"There’s an update available, click now",spam
+"We can review this together",work
+"We can review this later",personal
+"I’ll send you the details shortly",work
+"I’ll send you details later",personal
+"Your request is being processed",updates
+"Your request is being processed, act now",spam
+"This should be discussed further",work
+"This should be discussed later",personal
+"There’s something to look into here",work
+"There’s something to look into now",updates
+"Let’s address this soon",work
+"Let’s address this later",personal
+"This might be important for you",updates
+"This is important, act immediately",spam
+"We need to go over this carefully",work
+"We need to go over this later",personal
